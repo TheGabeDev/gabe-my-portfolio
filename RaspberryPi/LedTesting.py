@@ -17,7 +17,6 @@ LED_PINB = 4  #BLUE LED
 GPIO.setup(LED_PINR, GPIO.OUT) 
 GPIO.setup(LED_PING, GPIO.OUT)
 GPIO.setup(LED_PINB, GPIO.OUT)
-
 mainwindow = tk.Tk()
 
 def shine():
